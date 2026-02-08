@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SWIFTDESK – Offshore Sales & Operations Outsourcing</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0b1c2d;
+  --blue:#163a63;
+  --light:#f4f7fb;
+  --accent:#2f6fed;
+  --muted:#7c8aa0;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,system-ui,sans-serif}
+body{background:var(--light);color:#0f172a;line-height:1.65}
+.container{max-width:1200px;margin:auto;padding:24px}
+header{background:linear-gradient(180deg,#0b1c2d,#163a63);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 24px}
+.brand{font-weight:700;font-size:22px;letter-spacing:.4px}
+nav a{color:#dbe6ff;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:70px 24px 80px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+.hero h1{font-size:44px;line-height:1.15;margin-bottom:14px}
+.hero p{color:#d9e4ff}
+.hero-card{background:#ffffff;border-radius:18px;padding:26px;box-shadow:0 25px 60px rgba(0,0,0,.25)}
+.badge{display:inline-block;background:rgba(47,111,237,.15);color:#e6efff;padding:6px 12px;border-radius:999px;font-size:13px;margin-bottom:12px}
+.btn{background:var(--accent);color:#fff;border:none;padding:14px 22px;border-radius:12px;font-weight:600;cursor:pointer}
+section{margin-top:70px}
+h2{font-size:32px;margin-bottom:10px}
+.sub{color:var(--muted);max-width:800px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:26px}
+.card{background:#fff;border-radius:18px;padding:22px;box-shadow:0 10px 25px rgba(0,0,0,.08)}
+.card h3{margin-bottom:6px}
+.card p{color:#475569}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.pricing .card strong{font-size:18px}
+.notice{background:#eef3ff;border-left:4px solid var(--accent);padding:18px;border-radius:10px;color:#1e293b}
+form{display:grid;gap:12px}
+input,select,textarea{border:1px solid #d6deea;border-radius:10px;padding:12px 14px;font-size:14px}
+textarea{min-height:110px;resize:vertical}
+footer{margin-top:90px;background:#0b1c2d;color:#c7d5ff}
+footer .container{display:grid;gap:14px}
+small{color:#9fb4ff}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.split{grid-template-columns:1fr}}
+</style>
+</head>
+<body><header>
+  <div class="nav">
+    <div class="brand">SWIFTDESK</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#process">Delivery Model</a>
+      <a href="#why">Why SWIFTDESK</a>
+      <a href="#contact">Business Enquiry</a>
+    </nav>
+  </div>  <div class="hero container">
+    <div>
+      <span class="badge">Offshore outsourcing for companies & agencies only</span>
+      <h1>Top‑tier outsourced sales and operations teams for global companies and agencies.</h1>
+      <p>
+        SWIFTDESK is an India‑based offshore delivery partner providing dedicated sales and operations
+        professionals to international businesses.
+        We operate on a per‑resource engagement model used by established Indian BPO centers.
+      </p>
+      <p style="margin-top:14px">
+        This website is strictly for organizations, companies and agencies seeking outsourcing services.
+        We do not accept job applications through this platform.
+      </p>
+    </div><div class="hero-card" id="contact">
+  <h3 style="margin-bottom:6px">Business Enquiries – Email Only</h3>
+  <p class="sub" style="margin-bottom:12px">
+    This website is intended exclusively for companies and agencies seeking offshore sales and operations outsourcing through SWIFTDESK.
+  </p>
+
+  <div class="notice">
+    <p><strong>Official business email:</strong></p>
+    <p style="font-size:18px;margin-top:6px"><strong>swiftdesk81@gmail.com</strong></p>
+    <p style="margin-top:10px;font-size:14px;color:#475569">
+      Our business team responds to all qualified enquiries within 24 business hours after receiving your email.
+    </p>
+  </div>
+</div>
+
+  </div>
+</header><main class="container"><section id="services">
+  <h2>Our Service Portfolio</h2>
+  <p class="sub">End‑to‑end offshore delivery for revenue and operations driven organizations.</p>  <div class="grid">
+    <div class="card">
+      <h3>Customer Care & Customer Support Teams</h3>
+      <p>Voice and non‑voice customer handling, ticket management, CRM updates, order support, renewals and service coordination for international customers.</p>
+    </div>
+    <div class="card">
+      <h3>Sales Outsourcing & Lead Conversion</h3>
+      <p>Dedicated sales resources responsible for inbound and outbound engagement, qualification, follow‑ups, proposal coordination and pipeline ownership.</p>
+    </div>
+    <div class="card">
+      <h3>Lead Qualification & Appointment Setting</h3>
+      <p>Pre‑sales teams focused on screening prospects, booking qualified meetings and maintaining clean sales pipelines for your internal closers.</p>
+    </div>
+    <div class="card">
+      <h3>Automotive & Dealer Operations Support</h3>
+      <p>Specialized teams for vehicle enquiries, dealer coordination, inspection scheduling, documentation follow‑ups and buyer handling.</p>
+    </div>
+    <div class="card">
+      <h3>Back‑Office & Operations Support</h3>
+      <p>Data operations, reporting, compliance documentation, internal coordination, account support and workflow administration.</p>
+    </div>
+    <div class="card">
+      <h3>Multi‑channel Support Coverage</h3>
+      <p>Email, chat and CRM‑based workflows aligned with your internal systems and compliance policies.</p>
+    </div>
+  </div>
+</section><section id="pricing" class="pricing">
+  <h2>Engagement & Commercial Model (USD – per person / per hour)</h2>
+  <p class="sub">Indicative offshore delivery pricing aligned with standard Indian BPO center benchmarks for foreign clients.</p>  <div class="grid">
+    <div class="card">
+      <h3>Customer Care / Customer Support Executive</h3>
+      <p><strong>USD 8 per hour per dedicated resource</strong></p>
+      <p>Voice and non‑voice customer support, order handling and ticket resolution.</p>
+    </div><div class="card">
+  <h3>Lead Qualification / Appointment Setter</h3>
+  <p><strong>USD 9 per hour per dedicated resource</strong></p>
+  <p>Inbound and outbound prospect engagement, screening and meeting booking.</p>
+</div>
+
+<div class="card">
+  <h3>Sales Support / Sales Operations Executive</h3>
+  <p><strong>USD 10 per hour per dedicated resource</strong></p>
+  <p>CRM ownership, follow‑ups, coordination with closers and pipeline management.</p>
+</div>
+
+<div class="card">
+  <h3>Senior or Domain‑Specific Resource</h3>
+  <p><strong>USD 11 – 12 per hour per dedicated resource</strong></p>
+  <p>Automotive, real‑estate, marketplace and industry‑specific operations.</p>
+</div>
+
+  </div>  <div class="notice" style="margin-top:22px">
+    All engagements are provided on a dedicated‑resource model. Billing is calculated per assigned person.
+    Hardware, infrastructure, HR management, payroll and local statutory compliance are managed by SWIFTDESK.
+  </div>
+</section><section id="process">
+  <h2>Delivery & Onboarding Model</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Requirement & Process Discovery</h3>
+      <p>We study your workflows, CRM tools, communication channels, quality benchmarks and compliance requirements.</p>
+    </div>
+    <div class="card">
+      <h3>Resource Mapping & Assignment</h3>
+      <p>Dedicated professionals are allocated based on language proficiency, operational exposure and domain relevance.</p>
+    </div>
+    <div class="card">
+      <h3>Knowledge Transfer & SOP Alignment</h3>
+      <p>Scripts, standard operating procedures, escalation paths and reporting structures are aligned before go‑live.</p>
+    </div>
+    <div class="card">
+      <h3>Performance Monitoring & Reporting</h3>
+      <p>Ongoing productivity tracking, quality reviews and structured operational reporting.</p>
+    </div>
+  </div>
+</section><section>
+  <h2>Industries We Support</h2>
+  <div class="grid">
+    <div class="card"><p>Automotive marketplaces and dealer networks</p></div>
+    <div class="card"><p>Real estate platforms and brokerages</p></div>
+    <div class="card"><p>Professional services firms and agencies</p></div>
+    <div class="card"><p>E‑commerce and digital marketplaces</p></div>
+    <div class="card"><p>Technology and SaaS providers</p></div>
+    <div class="card"><p>Logistics and service aggregators</p></div>
+  </div>
+</section><section id="why">
+  <h2>Why Companies Choose SWIFTDESK</h2>
+  <div class="grid">
+    <div class="card"><p>Dedicated resources only — no shared agent pools.</p></div>
+    <div class="card"><p>India‑based delivery aligned with global time zones.</p></div>
+    <div class="card"><p>Scalable operations from single resources to large multi‑team deployments.</p></div>
+    <div class="card"><p>Structured governance, reporting and operational supervision.</p></div>
+    <div class="card"><p>Clear commercial structure aligned with BPO industry practices.</p></div>
+    <div class="card"><p>Focused on long‑term delivery partnerships.</p></div>
+  </div>
+</section><section>
+  <h2>Compliance & Professional Standards</h2>
+  <p class="sub">
+    SWIFTDESK follows structured internal controls for data handling, workforce management and client confidentiality.
+    Engagement models are designed to support international contracting requirements and operational transparency.
+  </p>
+</section><section>
+  <h2>Official Business Contact</h2>
+  <div class="card">
+    <p><strong>Company:</strong> SWIFTDESK</p>
+    <p><strong>Email:</strong> swiftdesk81@gmail.com</p>
+    <p style="margin-top:8px;color:#475569">
+      Our business team responds to all qualified enquiries within 24 business hours after receiving your email or submission.
+    </p>
+  </div>
+</section></main><footer>
+  <div class="container">
+    <strong>SWIFTDESK – Offshore Sales & Operations Outsourcing</strong>
+    <small>Website intended exclusively for companies and agencies seeking outsourcing services. Not a hiring or recruitment portal.</small>
+    <small>© SWIFTDESK</small>
+  </div>
+</footer></body>
+</html>
